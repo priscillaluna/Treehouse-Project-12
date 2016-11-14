@@ -1,0 +1,297 @@
+
+/* general */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+/* navigation */
+
+header {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: #AEA8D3;
+  color: #fff;
+}
+
+header h1 {
+  margin-left: 10px;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 18px;
+  margin-top: 21px;
+}
+
+header nav {
+  font-family: 'Muli', sans-serif;
+  font-size: 12px;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin-top: 21px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header ul li {
+  margin-left: 35px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li a:hover {
+  color: #DADFE1;
+}
+
+/* introduction */
+
+.intro {
+  color: #6C7A89;
+  text-align: center;
+}
+
+.priscilla {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  margin-top: 60px;
+}
+
+h2 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.intro h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 15px;
+}
+
+hr {
+  width: 70%;
+  color: #DADFE1;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* projects */
+
+.projects {
+  text-align: center;
+  color: #6C7A89;
+}
+
+.projects h2 {
+  margin-bottom: 60px;
+}
+
+.projectPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectPhotos img {
+  height: 200px;
+  width: 373px;
+  margin: 10px;
+  border: 2px solid #c4c9cf;
+}
+
+/* about */
+
+.about {
+  color: #6C7A89;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+/* footer */
+
+footer {
+  margin-top: 60px;
+  width: 100%;
+  height: 207px;
+  background-color: #6C7A89;
+}
+
+footer p {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  color: #DADFE1;
+  padding-top: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  text-align: center;
+  transition: all .3s;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+svg {
+  fill: #DADFE1;
+  text-align: center;
+  margin: 15px;
+}
+
+svg:hover {
+  fill: #F3F5F6;
+  cursor: pointer;
+}
+
+footer .email {
+  text-decoration: none;
+}
+
+/* overlay */
+
+#overlay {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  display: none;
+  text-align: center;
+  z-index: 101;
+}
+
+#project-title,
+#project-description,
+#project-button,
+#project-skills {
+  color: #6C7A89;
+}
+
+#overlay h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#overlay img {
+  height: 280px;
+  width: 480px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 2px solid #c4c9cf;
+}
+
+#overlay p {
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#project-skills {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#overlay a {
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  background-color: #6C7A89;
+  color: #DADFE1;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* media queries */
+
+@media (min-width:768px) {
+
+  header h1 {
+    margin-left: 80px;
+    width: 40%;
+  }
+
+  header nav {
+    margin-right: 80px;
+    margin-left: auto;
+    font-size: 14px;
+    width: 60%;
+  }
+
+  .about p {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  #overlay p {
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (min-width:1024px) {
+
+  header h1 {
+    margin-left: 140px;
+  }
+
+  header nav {
+    margin-right: 141px;
+    margin-left: auto;
+    font-size: 14px;
+  }
+
+  header ul {
+    margin-left: 140px;
+  }
+
+  .about p {
+    margin-right: 350px;
+    margin-left: 350px;
+  }
+
+  #overlay p {
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 10px;
+  }
+
+}
