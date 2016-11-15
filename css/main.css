@@ -113,7 +113,7 @@ hr {
   height: 200px;
   width: 373px;
   margin: 10px;
-  border: 2px solid #c4c9cf;
+  border: 2px solid #e1e4e7;
 }
 
 /* about */
@@ -193,19 +193,18 @@ footer .email {
 
 #project-title,
 #project-description,
-#project-button,
-#project-skills {
+#project-button {
   color: #6C7A89;
 }
 
 #overlay h2 {
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
 #overlay img {
-  height: 280px;
-  width: 480px;
+  height: 200px;
+  width: 400px;
   margin-top: 20px;
   margin-bottom: 30px;
   border: 2px solid #c4c9cf;
@@ -217,13 +216,14 @@ footer .email {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-top: 10px;
 }
 
 #project-skills {
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  color: #AEA8D3;
 }
 
 #overlay a {
@@ -232,7 +232,7 @@ footer .email {
   font-size: 14px;
   background-color: #6C7A89;
   color: #DADFE1;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 15px;
 }
 
@@ -241,6 +241,7 @@ footer .email {
 @media (min-width:768px) {
 
   header h1 {
+    font-size: 22px;
     margin-left: 80px;
     width: 40%;
   }
@@ -262,6 +263,11 @@ footer .email {
     margin-left: 33%;
     margin-right: 33%;
     margin-bottom: 10px;
+  }
+
+  #overlay img {
+    height: 280px;
+    width: 480px;
   }
 
 }
@@ -292,6 +298,11 @@ footer .email {
     margin-left: 33%;
     margin-right: 33%;
     margin-bottom: 10px;
+  }
+
+  #overlay img {
+    height: 280px;
+    width: 480px;
   }
 
 }
