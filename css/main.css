@@ -9,6 +9,10 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  max-width: 1550px;
+}
+
 /* navigation */
 
 header {
@@ -107,7 +111,6 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1550px;
 }
 
 .projectPhotos img {
